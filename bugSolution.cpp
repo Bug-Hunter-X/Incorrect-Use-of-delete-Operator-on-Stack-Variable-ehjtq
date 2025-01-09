@@ -1,0 +1,1 @@
+int main() { int x = 10; int *ptr = new int; *ptr = x; // Correct usage: Allocate memory on the heap delete ptr; return 0; }
